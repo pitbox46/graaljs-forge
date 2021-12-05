@@ -10,7 +10,7 @@ import javax.script.ScriptEngineManager;
 import javax.script.ScriptException;
 
 @Mod("graaljs")
-public class MinecraftMod {
+public class GraalJS {
     public static final GraalJSScriptEngine GRAAL_JS = ((GraalJSScriptEngine) new ScriptEngineManager().getEngineByName("Graal.js"));
 
 //    Testing Only
